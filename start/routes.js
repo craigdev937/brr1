@@ -20,4 +20,6 @@ Route.on('/').render('index');
 Route.on('/culture').render('culture');
 Route.on('/mentoring').render('mentoring');
 Route.on('/store').render('store');
+Route.on('/womens').render('womens');
+Route.on('/mens').render('mens');
 

@@ -24,30 +24,37 @@ body {
     margin-left: 20px;
 }
 
-.side {
-    position: absolute;
+.side__nav {
+    position: fixed;
+    width: 140px;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.side a {
+.side__nav a {
     background-color: #6D6875;
-    font-family: 'Rubik Mono One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
     color: #000;
     font-size: 26px;
-    font-family: sans-serif;
     display: block;
-    width: 130px;
     padding: 12px;
     text-decoration: none;
     margin: 8px 0;
+    width: 180px; /* Width must be above margin-left */
+    margin-left: -190px;
     border-radius: 6px;
-    margin-left: -145px;
     transition: 0.6s all;
 }
 
-.side a:hover {
+.side__nav a:hover {
     margin-left: 0;
     background-color: #FFCDB2;
+}
+
+.container__image {
+    height: auto;
+    width: 100%;
 }
 

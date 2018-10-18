@@ -1,2 +1,2 @@
-console.log('Hello World!');
+console.log('Black Raised Right!');
 
