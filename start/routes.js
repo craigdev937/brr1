@@ -18,8 +18,12 @@ const Route = use('Route');
 
 Route.on('/').render('index');
 Route.on('/culture').render('culture');
-Route.on('/mentoring').render('mentoring');
+Route.on('/mentor').render('mentor');
 Route.on('/store').render('store');
 Route.on('/womens').render('womens');
 Route.on('/mens').render('mens');
+Route.on('/create').render('create');
+
+Route.on('/signup').render('auth.signup');
+Route.on('/login').render('auth.login');
 
