@@ -30,12 +30,13 @@
             @endif
 
             <label for="password">Password</label>
-            <input type="password" name="password" value="{{ old('password'), '' }}">
+            <input type="password" name="password">
             @if(hasErrorFor('password'))
                 <span>
                     {{ getErrorFor('password') }}    
-                </span>              
+                </span>
             @endif
+            <button type="submit">Create Account</button>
         </form>
     </div>
 @endsection

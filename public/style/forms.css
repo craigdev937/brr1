@@ -39,7 +39,9 @@ button {
 
 span {
     display: block;
-    background: yellow;
+    color: #000;
+    background: #FF9C71;
     padding: .3em;
     margin-bottom: 20px;
 }
+

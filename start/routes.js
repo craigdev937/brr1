@@ -25,5 +25,8 @@ Route.on('/mens').render('mens');
 Route.on('/create').render('create');
 
 Route.on('/signup').render('auth.signup');
+Route.post('/signup', 'UserController.create').validator('CreateUser');
+
 Route.on('/login').render('auth.login');
+Route.on('/cart').render('auth.cart');
 
